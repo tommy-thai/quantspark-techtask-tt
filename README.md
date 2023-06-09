@@ -1,0 +1,1 @@
+# quantspark-techtask-tt
