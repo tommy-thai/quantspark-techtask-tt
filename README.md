@@ -7,6 +7,7 @@
 - Transaction data extraction is available incrementally, i.e. bars will only provide new data always 
 
 ### How to Use
+0. Connect your IDE to a branch of this repository or download all the files contained (`README.md` isn't needed)
 1. Open `build_database.py`, edit the configuration variables as needed. You may need this if any file locations/names change.
 2. Open `poc_tables.SQL`, you may edit the SQL here to add similar tables for the other bars or change the time period to measure the transactions by. The provided SQL tables shows the number of drinks by the hour for London only. The `_hourly_recommended` table averages across each hour and shows an average and upper bound recommendation for how many glasses are needed.
 3. Ensure all your input files are in a child directory. The default directory name is `data`.
